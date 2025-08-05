@@ -32,4 +32,4 @@ jobs:
 
       - name: Run Tests with Coverage
         run: |
-        pytest --cov=main --cov-report=term --cov-fail-under=80
+            pytest --cov=main --cov-report=term --cov-fail-under=80
