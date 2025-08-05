@@ -1,1 +1,8 @@
- pytest
+# App dependencies (add your actual project requirements below)
+# Example:
+# requests==2.31.0
+
+# Testing and CI tools
+pytest==8.2.2
+pytest-cov==5.0.0
+flake8==7.0.0
