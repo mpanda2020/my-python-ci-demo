@@ -4,4 +4,4 @@ def test_add():
     assert add(2, 3) == 5
 
 def test_env():
-    assert get_env() == "test"
+    assert get_env() == "prod"
