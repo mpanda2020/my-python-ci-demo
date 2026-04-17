@@ -10,6 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      APP_ENV: test
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -32,6 +35,4 @@ jobs:
 
       - name: Run Tests with Coverage
         run: |
-            pytest --cov=app --cov-report=term --cov-fail-under=80
-      env:
-      APP_ENV: test      
+          pytest --cov=app --cov-report=term --cov-fail-under=80
